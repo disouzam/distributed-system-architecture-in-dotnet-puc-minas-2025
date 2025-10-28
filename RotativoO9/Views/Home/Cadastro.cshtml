@@ -1,0 +1,9 @@
+﻿@model List<Cadastro>
+
+
+<h2>Quantidade de cadastros: </h2> @Model.Count
+
+@foreach (Cadastro c in Model)
+{
+    <li> @c.Nome </li>
+}
